@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2048 Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="game-container">
+      <div id="grid-container"></div>
+    </div>
+
+    <div class="game-over" id="game-over">
+      <div class="title">Game Over</div>
+      <button id="tryagain">Try again</button>
+    </div>
+
+    <div class="game-info">
+      <div class="title">2048 Game</div>
+      <div id="game-message" class="game-message">
+        <p id="game-time">TIME: 00:00</p>
+        <p id="game-score">SCORE: 0</p>
+      </div>
+
+      <button id="new">New game</button>
+      <button id="pause">Pause</button>
+
+      <div class="move">
+        <div class="title">Controls</div>
+        <div class="arrows">
+          <img src="Images/up-arrow-solid-60.png" alt="Up-Arrow" />
+          <img src="Images/left-arrow-solid-60.png" alt="Left-Arrow" />
+          <img src="Images/right-arrow-solid-60.png" alt="Right-Arrow" />
+          <img src="Images/down-arrow-solid-60.png" alt="Down-Arrow" />
+        </div>
+      </div>
+    </div>
+    <script src="Javascript.js"></script>
+  </body>
+</html>
